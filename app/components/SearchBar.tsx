@@ -23,9 +23,10 @@ export const SearchBar = ({ onSearch }: SearchBarProps) => {
 			action="">
 			<input
 				type="text"
-				className="w-2/4 text-black border border-gray-300 rounded-l py-2 px-4 w-full  focus:border-blue-500"
+				className="w-1/4 text-black border border-gray-300 rounded-l py-2 px-4 w-full  focus:border-blue-500"
 				value={query}
 				onChange={handleChange}
+				placeholder="Search for a movie"
 			/>
 			<button
 				type="submit"
